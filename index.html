@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Коммерческое предложение на разработку B2B-сайта-каталога для Olympia Textiles.">
+    <title>Olympia Textiles — коммерческое предложение</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230b2939'/%3E%3Cpath d='M12 18h40v6H12zm0 11h40v6H12zm0 11h40v6H12z' fill='%23f5f0e7'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" aria-label="Навигация">
+      <a class="brand" href="#top" aria-label="Olympia Textiles">
+        <span class="brand-mark">OT</span>
+        <span>Olympia Textiles</span>
+      </a>
+      <nav class="nav-links" aria-label="Разделы предложения">
+        <a href="#catalog">Каталог</a>
+        <a href="#production">Производство</a>
+        <a href="#terms">Условия</a>
+      </nav>
+      <a class="header-cta" href="#request">Связаться</a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <img
+          class="hero-image"
+          src="https://images.unsplash.com/photo-1741275270138-adaef2edf2f0?auto=format&fit=crop&w=2200&q=82"
+          alt="Работники текстильного производства сортируют рулоны ткани"
+        >
+        <div class="hero-shade"></div>
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Коммерческое предложение / B2B сайт-каталог</p>
+          <h1 id="hero-title">Сайт для фабрики, которую видно по масштабу</h1>
+          <p class="hero-copy">
+            Olympia Textiles получает не интернет-магазин, а сильную B2B-витрину:
+            ассортимент трикотажных полотен, параметры партий и быстрый запрос расчета.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#request">Связаться</a>
+            <a class="button button-ghost" href="#catalog">Смотреть структуру</a>
+          </div>
+        </div>
+        <aside class="hero-facts" aria-label="Ключевые факты проекта">
+          <div>
+            <span>Стоимость</span>
+            <strong>35 000 ₽</strong>
+          </div>
+          <div>
+            <span>Срок</span>
+            <strong>7 дней</strong>
+          </div>
+          <div>
+            <span>Поддержка</span>
+            <strong>2 месяца</strong>
+          </div>
+        </aside>
+      </section>
+
+      <section class="intro section-pad" aria-labelledby="intro-title">
+        <div class="section-kicker">Задача</div>
+        <div class="intro-text">
+          <h2 id="intro-title">Показать производство полного цикла, а не собрать шаблонный каталог.</h2>
+          <p>
+            Сайт должен говорить языком закупщика: вид полотна, плотность, состав,
+            цвет, минимальная партия, стабильность поставок. Корзина и онлайн-оплата не нужны:
+            главный сценарий — отправить запрос на расчет.
+          </p>
+        </div>
+      </section>
+
+      <section id="catalog" class="catalog section-pad" aria-labelledby="catalog-title">
+        <div class="section-heading">
+          <p class="eyebrow dark">Каталог без магазинной логики</p>
+          <h2 id="catalog-title">10-15 чистых карточек. Вариации — внутри.</h2>
+        </div>
+
+        <div class="catalog-layout">
+          <div class="product-list" aria-label="Основные позиции каталога">
+            <article class="product featured">
+              <span>01 / хит продаж</span>
+              <h3>Футер 3-нитка</h3>
+              <p>Плотное полотно для худи, костюмов, спортивной и повседневной одежды.</p>
+              <div class="chips" aria-label="Параметры">
+                <em>цвет</em>
+                <em>плотность</em>
+                <em>состав</em>
+              </div>
+            </article>
+            <article class="product">
+              <span>02</span>
+              <h3>Кулирная гладь</h3>
+              <p>Базовое полотно для футболок, бельевой группы и легкой одежды.</p>
+            </article>
+            <article class="product">
+              <span>03</span>
+              <h3>Рибана с лайкрой</h3>
+              <p>Эластичные детали, манжеты, горловины, прилегающие изделия.</p>
+            </article>
+            <article class="product">
+              <span>04</span>
+              <h3>Интерлок</h3>
+              <p>Мягкое стабильное полотно для детской, домашней и базовой одежды.</p>
+            </article>
+            <article class="product accent">
+              <span>05 / уникально</span>
+              <h3>Жаккард</h3>
+              <p>Отдельный акцент сайта: редкое предложение, которое отличает фабрику.</p>
+            </article>
+          </div>
+
+          <aside class="filter-panel" aria-label="Как будут работать параметры">
+            <p class="panel-label">Параметры в карточке</p>
+            <div class="filter-row">
+              <span>Цвет</span>
+              <b>палитра партии</b>
+            </div>
+            <div class="filter-row">
+              <span>Плотность</span>
+              <b>г/м²</b>
+            </div>
+            <div class="filter-row">
+              <span>Состав</span>
+              <b>хлопок / лайкра / смесовые</b>
+            </div>
+            <div class="filter-row">
+              <span>SKU</span>
+              <b>50-70 комбинаций</b>
+            </div>
+            <p class="panel-note">
+              Визуально сайт остается легким: закупщик видит основные полотна,
+              а не десятки одинаковых карточек.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section id="production" class="production" aria-labelledby="production-title">
+        <div class="production-media">
+          <img
+            src="https://images.unsplash.com/photo-1654111069497-dfd4afcff006?auto=format&fit=crop&w=1800&q=82"
+            alt="Текстильная машина в работе"
+          >
+        </div>
+        <div class="production-copy section-pad">
+          <p class="eyebrow">Производственная сила</p>
+          <h2 id="production-title">Блок доверия строится на цифрах, процессе и фактуре.</h2>
+          <div class="metrics" aria-label="Мощности Olympia Textiles">
+            <div>
+              <strong>500 т</strong>
+              <span>готовой продукции в месяц</span>
+            </div>
+            <div>
+              <strong>63</strong>
+              <span>вязальные машины</span>
+            </div>
+            <div>
+              <strong>500 кг</strong>
+              <span>минимальная оптовая партия</span>
+            </div>
+          </div>
+          <p>
+            Полный цикл от сырья до отгрузки будет оформлен как доказательство надежности:
+            закупщик сразу понимает, что фабрика готова к регулярным объемам и экспортным запросам.
+          </p>
+        </div>
+      </section>
+
+      <section class="direction section-pad" aria-labelledby="direction-title">
+        <div class="section-kicker">Арт-дирекшен</div>
+        <div>
+          <h2 id="direction-title">Индустриальная текстильная редакция.</h2>
+          <div class="direction-grid">
+            <p>
+              Фон — глубокий графит, теплый белый, текстильный синий и винный акцент.
+              Главный визуальный материал — макро-фактура полотна и кадры производства.
+            </p>
+            <p>
+              Движение — спокойное: появление блоков, мягкое раскрытие карточек,
+              точные hover-состояния. Дизайн выглядит дорогим без лишнего декора.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="terms" class="terms section-pad" aria-labelledby="terms-title">
+        <div class="section-heading">
+          <p class="eyebrow dark">Состав работ</p>
+          <h2 id="terms-title">Что входит в 35 000 ₽</h2>
+        </div>
+        <div class="terms-grid">
+          <div class="term-block">
+            <h3>Проектирование</h3>
+            <p>Структура, сценарии заявки, логика каталога, B2B-подача ассортимента.</p>
+          </div>
+          <div class="term-block">
+            <h3>Дизайн</h3>
+            <p>Главная страница, каталог, карточка полотна, контактный блок, мобильная версия.</p>
+          </div>
+          <div class="term-block">
+            <h3>Верстка</h3>
+            <p>Адаптивный HTML/CSS, аккуратные состояния кнопок, фильтров и карточек.</p>
+          </div>
+          <div class="term-block">
+            <h3>Запуск</h3>
+            <p>Базовая техническая оптимизация, подготовка к публикации, проверка перед сдачей.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="request" class="cta-section" aria-labelledby="request-title">
+        <div class="cta-copy">
+          <p class="eyebrow">Финальные условия</p>
+          <h2 id="request-title">7 дней разработки. 2 месяца поддержки после запуска.</h2>
+          <p>
+            Нужны логотип, контакты, список позиций каталога, параметры полотен и способ получения заявок.
+            Если материалов мало, стартуем со структуры и собираем визуал по ходу.
+          </p>
+        </div>
+        <address class="contact-panel" aria-label="Контактные данные">
+          <p>Контакты для связи</p>
+          <a href="https://t.me/marnitic">Telegram <strong>@marnitic</strong></a>
+          <a href="mailto:daniil.shelesteev@yandex.ru">Email <strong>daniil.shelesteev@yandex.ru</strong></a>
+        </address>
+      </section>
+    </main>
+  </body>
+</html>
