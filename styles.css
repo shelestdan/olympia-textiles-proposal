@@ -237,6 +237,10 @@ h3 {
   line-height: 1;
 }
 
+.price-nowrap {
+  white-space: nowrap;
+}
+
 .hero-copy {
   max-width: 720px;
   margin-bottom: 32px;
